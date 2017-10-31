@@ -17,4 +17,4 @@ Texto codificado: HIJKLMNOPQRSTUVWXYZABCDEFG
  4.2 Se recorrera la posición del arreglo, se obtendra el valor de la letra en acii, se le restará 33 y del resultado se devolvera la letra correspondiente para así obtener el valor de la letra cifrada.
  4.3 Después de hacer la operación se devolvera un string en lugar de un arreglo
 6. Fin.
-![Diagrama de flujo del cifrado César](cifrado-cesar.png)
+![Diagrama de flujo del cifrado César](http://subefotos.com/ver/?894707626ace47d15ef509f832d800fao.png)
