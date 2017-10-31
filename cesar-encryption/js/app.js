@@ -10,7 +10,7 @@ if(typeof (sentence===''||sentence)!='string'){//Invalido si es campo vacío o n
 var arraySentence=[];
 var arraySentenceASCII=[];//Guardaré el valor el ASCII con los 33 espacios ya añadidos o disminuidos (según la función: cipher/decipher.
 var arraySentenceEncryp=[];//Letras encriptadas
-var option= cipher(sentence);//¿Encriptado o desencriptado?
+var option= decipher(sentence);//¿Encriptado o desencriptado?
 
 function cipher(sentence){
 arraySentence=Array.from(sentence);
@@ -20,7 +20,7 @@ arraySentence=Array.from(sentence);
    var letterEncryp=String.fromCharCode(ASCII+7);
    arraySentenceEncryp.push(letterEncryp);
   }
-return console.log(arraySentenceEncryp);
+return alert(arraySentenceEncryp);
 }
 
 
@@ -32,5 +32,6 @@ arraySentence=Array.from(sentence);
     var letterEncryp=String.fromCharCode(ASCII-7);
     arraySentenceEncryp.push(letterEncryp);
   }
-return console.log(arraySentenceEncryp);
+  //arraySentenceEncryp.toString();
+return alert(arraySentenceEncryp);
 }
