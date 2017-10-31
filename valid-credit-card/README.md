@@ -14,4 +14,5 @@ Es una página web que pide, por medio de un prompt(), el usuario introduce el n
  4.5 Sumar todos los elementos contenidos en el arreglo y guardarlo en una variable llamada ResOfSum.
 6. Comprobar que el resultado de la suma dividido entre 10 es igual a cero, en caso de ser cero devolver valid card number, si es distinto de cero la función debe devolver: invalid card number.
 6. Fin.
-![Diagrama de flujo del programa: Tarjeta de crédito válida.](http://subefotos.com/ver/?60db24904178c588ea31ec35229c0b6ao.png)
+
+![Diagrama de flujo del programa: Tarjeta de crédito válida.](https://fotos.subefotos.com/60db24904178c588ea31ec35229c0b6ao.png)
